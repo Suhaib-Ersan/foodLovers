@@ -73,9 +73,12 @@ input {
 }
 #submitOrder {
   margin-top: 20px;
+
+  padding: 10px 35px;
 }
 #clearStorage {
   margin-top: 70px;
+  padding: 10px 35px;
 }
 
 #foodType, #customerName {
