@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+* {
+  color: red;
+}
+body {
+  font-family: 'Fredoka One', cursive;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+
+  
+}
+body p {
+  color: black;
+}
+header {
+  background-color: rgba(255, 229, 72, 255);
+  color: red;
+
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+header img {
+  width: 100px;
+}
+#headerTitle {
+font-size: 62px;
+}
+
+
+main {
+  margin: 70px;
+}
+
+#foodSection {
+  display: flex;
+  justify-content: space-around;
+}
+#headerFiller {
+  background-color: rgba(16, 143, 255, 0);
+  width: 20px;
+  padding: 40px 0;
+}
+#choiceSection {
+  border-radius: 20px;
+
+  box-sizing: border-box;
+
+  min-height: 400px;
+  width: 250px;
+  background-color: rgba(255, 229, 72, 255);
+
+  text-align: center;
+}
+#submitOrderForm{
+  margin: 25px;
+}
+
+
+#listSection {
+  min-height: 400px;
+  width: 600px;
+  background-color: rgba(255, 229, 72, 255);
+}
+#listSection img {
+  max-width: 100px;
+}
+
+table,tr,th,td {
+  padding: 20px;
+
+  border: red solid 2px;
+
+  color: black;
+}
+table {
+  margin: 25px;
+  width: 550px;
+}
+
+td {
+  text-align: left; 
+  vertical-align: middle;
+}
+
+.foodImageTd, th {
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(255, 229, 72, 255);
+  height: 163px;
+}
+footer h1 {
+  line-height: 163px;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}

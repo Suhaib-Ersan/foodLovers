@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Lovers</title>
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <header>
+      <img id="logoImg" src="assets/logo.png" alt="" />
+      <div id="headerTitle">Food Lovers</div>
+      <div id="headerFiller"></div>
+    </header>
+    <main>
+      <section id="foodSection">
+        <section id="choiceSection">
+          <form id="submitOrderForm">
+            <fieldset id="choiceSectionFieldset">
+              <label for="customerName">Customer Name</label>
+              <input required id="customerName" name="customerName" type="text" />
+              <br />
+
+              <label for="foodType">Food Type</label> <br />
+              <select name="foodType" id="foodType">
+                <option value="shawarma">shawarma</option>
+                <option value="burger">burger</option>
+                <option value="pizza">pizza</option>
+              </select>
+              <br />
+              <input id="submitOrder" type="submit" value="Submit" />
+              <br />
+              
+            </fieldset>
+          </form>
+          <button id="clearStorage">Clear list</button>
+        </section>
+        <section id="listSection">
+          <table id="listSectionTable">
+          </table>
+        </section>
+      </section>
+
+      
+    </main>
+    
+    <footer>
+      <h1>ALl rights reserved for Food Lovers</h1>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
