@@ -68,6 +68,23 @@ main {
   max-width: 100px;
 }
 
+input {
+  margin-bottom: 20px;
+}
+#submitOrder {
+  margin-top: 20px;
+}
+#clearStorage {
+  margin-top: 70px;
+}
+
+#foodType, #customerName {
+  width: 200px;
+  height: 25px;
+}
+
+
+
 table,tr,th,td {
   padding: 20px;
 
